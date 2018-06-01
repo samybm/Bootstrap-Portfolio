@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    * {
+    box-sizing: border-box;
+}
+
+body {
+  color: white;
+}
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px;
+    background-color: rgb(236, 25, 183)
+    ;
+    }
+     
+    /* Set black background color, white text and some padding */
+    footer {
+      background-image: linear-gradient( rgb(207, 11, 11), rgb(4, 4, 70), rgb(255, 0, 64), green);
+      
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+    #main { background-image: url('file:///C:/Users/samysam/Documents/HW/HW2/Bootstrap-Portfolio/images/background/pic4.jpg');
+    
+    }
+
+    #side { background-image: url('file:///C:/Users/samysam/Documents/HW/HW2/Bootstrap-Portfolio/images/background/pic7.jpg');
+    }
+
+
+
+    .col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+
+  <div class="row content">
+      <div class="col-3" id="side">
+                <h4>Samy Sam's Social Media Contact</h4>
+                <ul class="nav nav-pills nav-stacked">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="gallery.html">Photo Gallery</a></li>
+                  <li><a href="Contact.html">Social Media</a></li>
+                </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search Blog..">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">
+                      <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                  </span>
+      </div>
+      </div>
+      
+
+    <div class="col-9" id="main">
+      <h4><large>Social Media and Contact Information</large></h4>
+      <hr>
+      <h2>I Love Food</h2>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Jane Dane, Sep 27, 2015.</h5>
+      <h5><span class="label label-danger">Food</span> <span class="label label-primary">Ipsum</span></h5><br>
+      <p>#samysam510 on all social media platforms</p>
+      <br><br>
+
+      <h4>Name</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+    
+
+      <h4>Email</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      
+
+      <h4>Message:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+        
+
+
+        </div>
+        </div>
+
+      
+      </div>
+      </div>
+    
+    
+    
+<footer class="container-fluid">
+  <p>Footer Text</p>
+</footer>
+
+
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Samy's Bootstrap</a>
+          </div>
+
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Photos</a></li>
+        <li><a href="contact.html">Social Media Contact</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+</body>
+</html>
